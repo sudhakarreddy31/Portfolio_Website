@@ -1,0 +1,39 @@
+{% extends 'websiteapp/base.html' %}
+{% block content %}
+{% load static %}
+<title>{% block title %}Work Details{% endblock %}</title>
+
+
+<section class="works" id="works">
+    <h2 class="heading"><i style='font-size:24px' class='fas'>&#xf2bb;</i> Work <span>Experience</span></h2><br><br>
+    <div class="row">
+        <div>
+            <div class="workimage">
+                <img draggable="false" class="tilt" src="{% static 'img/mypics/pic3.jpeg' %}" alt="Pic" width="400" height="600">
+            </div>
+        </div>
+        <div class="work">
+            <h2>Python Developer at XYZ Company</h2>
+                <p><strong>Duration:</strong> January 2021 - Present</p>
+                <p><strong>Responsibilities:</strong></p>
+                <ul>
+                    <li>Developed Python applications using Django Framework.</li>
+                    <li>Collaborated with a team of developers on various projects.</li>
+                    <li>Participated in code reviews and debugging tasks.</li>
+                </ul>
+            <br><br>
+            <div>
+                <h2>Intern at ABC Tech</h2>
+                    <p><strong>Duration:</strong> May 2020 - December 2020</p>
+                    <p><strong>Responsibilities:</strong></p>
+                    <ul>
+                        <li>Assisted in Python programming and web development projects.</li>
+                        <li>Learned and applied database management with MySQL.</li>
+                        <li>Supported the development team in various tasks.</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

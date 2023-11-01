@@ -1,0 +1,259 @@
+ /* Base.html */
+.navbar {
+    background-color: hsl(252, 46%, 67%); 
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.rem;
+    padding-left: 10px;
+    margin-left: 100px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    background-color: #000;
+}
+.navbar-nav {
+    margin-left: 600px;
+}
+.nav-item {
+    margin: 0 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 100;
+    font: bold;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    opacity: 1;
+    color: black;
+    z-index: 1;
+}
+
+
+
+
+.footer {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGXcDSz1THPSjrtfCRZAXQMnII2XOPdGmRQ&usqp=CAU);
+    color: #fff; 
+    text-align: start;
+    margin: auto;
+}
+.text-uppercase{
+    text-align: center;
+    margin: 10px 0;
+}
+.footer h5 {
+    font-size: 1.2rem;
+}
+.footer p {
+    font-size: 1rem;
+}
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+.social-media ul li {
+    margin: 10px 0;
+}
+.social-media ul li a {
+    color: #87CEEB; 
+    text-decoration: none;
+}
+
+
+
+.logo {
+    padding-right: 100px;
+    
+}
+
+.copyright {
+    background-color: hsl(252, 46%, 67%);     
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 100;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIhSkbIYc4tCCJqUgpZelNiTaenRFIgOOGbxHgKf4Afxiziy2CamCVJheKLR6BHwMIoO6J0ELt7DB4kpyus6bFSJJxqxAK9wNr66D0jPOp54MDO-BjAoFiUAYYjzpkeEOgAckxYsjwsrhAEf7kekQM-9yGBn9uQYcxLxPgGgUG6IMurLBhVpYQTwejcQ/s600-rw/Abstract-mesh-background-3840x2160.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+}
+
+.text {
+    margin-bottom: 200px;
+    margin-left: 100px;
+    text-align: left; 
+    flex: 1;
+    padding: 20px; 
+    font-style: italic;
+}
+
+.image {
+    flex: 1; 
+    text-align: right; 
+    margin-right: 100PX;
+}
+
+.tilt {
+    max-width: 100%;
+}
+
+
+ /* Base.html */
+
+
+/*  Start About styling  */
+.about{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl44gQb8392qwu60kbtrWmLlDT6ycDbPxmmQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.heading{
+    margin-left: 100px;
+    padding-top: 50px;
+    color: #952323;
+}
+
+.left{
+    color: rgb(48, 22, 135);
+    font-weight: bold;
+}
+
+
+/*  End About styling  */
+
+
+
+/*  Start Skills styling  */
+
+.skillimage {
+    flex: 1; 
+    text-align: left; 
+    margin-left: 90px;
+    margin-right: 10px;
+    padding-bottom: 100px;
+}
+
+
+.skills{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-family: monospace;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190830/pngtree-wooden-board-empty-table-with-blur-background-image_311151.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+
+}
+
+/*  End Skills styling  */
+
+
+
+/*  Start Work-Experiance styling  */
+
+
+.workimage {
+    flex: 1; 
+    margin-left: 80px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+    
+}
+
+
+.works{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbFyVV0zWnrwkf9gB7V7GTtzR2JuJ-UZy-TQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; 
+
+
+}
+
+
+
+/*  End Work-Experiance styling  */
+
+/*  Start Contact styling  */
+
+
+
+.contact-details {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: floralwhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /* height: 100vh;  */
+
+
+}
+.h2,ul,li{
+    margin: auto;
+    margin-left: 70px;
+}
+
+
+/*  End contact styling  */
+
+
+
+
+
+/* gallery */
+
+
+
+
+
+
+/* gallery */
+
+
+

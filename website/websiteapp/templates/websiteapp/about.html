@@ -1,0 +1,41 @@
+{% extends 'websiteapp/base.html' %}
+{% block content %}
+{% load static %}
+<title>{% block title %}About Page{% endblock %}</title>
+
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2><br><br>
+    <div class="row">
+        <div class="text">
+            <h2 class="left">I'm Sudhakar Reddy</h2>
+            <h3 class="left">Backend Developer</h3>
+            <br><br>
+            <div class="middle">
+                <p>I am a Backend developer based in Hyderabad, India. 
+                    I have a Bachelor's degree in Electronics and Communications Engineering (ECE) from Narsimha Reddy Engineering College in Hyderabad.
+                    <p>
+                        My primary expertise lies in Python development, with a strong focus on the Django Framework. I have hands-on experience in developing small-scale applications that leverage the power of Python to solve real-world problems. I take pride in writing clean, efficient, and maintainable code, ensuring that applications run seamlessly.
+                    </p>
+                    Thank you for considering my profile. I am enthusiastic about the opportunities that lie ahead in the world of software development and am eager to take on new challenges, learn, and contribute my skills to innovative projects.
+                </p>
+                <br><br>
+                <div class="resumebtn">
+                    <a href="https://drive.google.com/file/d/173axh2fPCIS5mOOcUJxxMZ5pNBmCwma6/view?usp=sharing" target="_blank" class="btn btn-info"><span>Resume</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+            
+        </div>
+
+        
+
+        <div class="image">
+            <img draggable="false" class="tilt" src="{% static 'img/mypics/pic1.jpeg' %}" alt="Pic" width="500" height="500">
+        </div>
+    </div>
+</section>
+{% endblock %}

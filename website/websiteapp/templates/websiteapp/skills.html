@@ -1,0 +1,43 @@
+{% extends 'websiteapp/base.html' %}
+{% block content %}
+{% load static %}
+<title>{% block title %}Skills Details{% endblock %}</title>
+
+
+<section class="skills" id="skills">
+    <h2 class="heading"><i class="fa fa-cogs" aria-hidden="true"></i> Technical <span>Skills</span></h2><br><br>
+    <div class="row">
+        <div>
+            <div class="skillimage">
+                <img draggable="false" class="tilt" src="{% static 'img/mypics/pic2.jpeg' %}" alt="Pic" width="400" height="400">
+            </div>
+        </div>
+            <div class="skills">
+                <h2>Technical Skills</h2>
+
+                <ul>
+                    <li><strong>Programming Languages:</strong> Python</li>
+                    <li><strong>Web Development:</strong> Django Framework</li>
+                    <li><strong>Database:</strong> MySQL</li>
+                    <li><strong>Version Control:</strong> Git, GitHub</li>
+                    <li><strong>Web Technologies:</strong> HTML, CSS</li>
+                </ul>
+                <br><br>
+                <div>
+                    <h2>Additional Skills</h2>
+                        <ul>
+                            <li><strong>Operating Systems:</strong> Unix, Windows, Ubuntu</li>
+                            <li><strong>Tools:</strong> Postman</li>
+                        </ul>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+{% endblock %}

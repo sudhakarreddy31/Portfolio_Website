@@ -1,0 +1,21 @@
+{% extends 'websiteapp/base.html' %}
+{% block content %}
+{% load static %}
+<title>{% block title %}My Home {% endblock %}</title>
+
+<div class="content">
+    <div class="text">
+        <h1>Hi There,<br/> I'm Sudhakar Reddy Moola</h1>
+        <h2>I am a Python/Django Developer</h2>
+        <br>
+        <a href="{% url 'About' %}">
+            <span class="btn btn-info">
+                Discover More
+            </span>
+        </a>
+    </div>
+    <div class="image">
+        <img draggable="false" class="tilt" src="{% static 'img/Me.jpeg' %}" alt="Pic" width="500" height="500">
+    </div>
+</div>
+{% endblock %}
