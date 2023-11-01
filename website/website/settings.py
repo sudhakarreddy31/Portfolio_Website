@@ -80,7 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Website_DB',
-        'USERNAME':'root',
+        'USER':'root',
         'PASSWORD':'Msr@123456789',
         'HOST':'localhost',
         'PORT':'3306',
@@ -127,9 +127,9 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Replace 'static' with your actual static files directory
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),  # Replace 'static' with your actual static files directory
+# ]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
