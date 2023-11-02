@@ -2,7 +2,7 @@
 
 ## The Main Page 
 
-![Home](Home.png)
+![Alt text](Home.png)
 
 Tech Stack:
 --------------
