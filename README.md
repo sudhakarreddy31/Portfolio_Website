@@ -2,7 +2,7 @@
 
 ## The Main Page 
 
-![Alt text](Home.png)
+![Main Page](website/websiteapp/static/img/Home.png)
 
 Tech Stack:
 --------------
